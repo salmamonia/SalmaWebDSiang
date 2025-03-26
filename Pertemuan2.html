@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ST Bhinneka</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        th, td {
+            border: 1px solid black;
+            padding: 10px;
+            text-align: center;
+        }
+
+        .content {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        .content iframe {
+            max-width: 100%;
+        }
+
+        .video, .audio {
+            width: 100%;
+            max-width: 300px;
+        }
+
+        img {
+            max-width: 800px;
+            height: auto;
+            border-radius: 40px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        .keterangan {
+            text-align: left;
+            padding: 10px;
+        }
+
+        @media screen and (max-width: 768px) {
+            table, th, td {
+                font-size: 14px;
+            }
+
+            .content {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <h2>ST Bhinneka</h2>
+
+    <table>
+        <tr>
+            <th>Audio</th>
+            <th>Video</th>
+            <th>Image</th>
+            <th>Keterangan</th>
+        </tr>
+        <tr>
+            <td>
+                <audio controls>
+                    <source src="c:\Users\User\Downloads\audio web html.mp3" type="audio/mpeg">
+                    
+                </audio>
+            </td>
+            <td>
+                <iframe width="560" height="315\" src="https://www.youtube.com/embed/aKtb7Y3qOck" frameborder="0" allowfullscreen></iframe>
+            </td>
+            <td>
+                <img  style="width: 800% height: 800%;; " src="Wonderful Indonesia Logo vector (_cdr).jpeg" alt="wonderful indonesia">
+            </td>
+            <td class="keterangan">
+                <p> nama:salma monia<br>nim:2403311804<br>hobi:dance, nyanyi, tidur, ngedrakor </p>
+            </td>
+        </tr>
+    </table>
+
+    <h3>Video</h3>
+    <div class="conten">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/Fa_rNR__UV0" frameborder="0" allowfullscreen></iframe><br>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/T1tDorodPbM" frameborder="0" allowfullscreen></iframe>
+        
+    </div>
+
+</body>
+</html>
